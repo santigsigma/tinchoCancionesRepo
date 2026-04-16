@@ -48,6 +48,10 @@ public class Cancion {
         return ultimaReproduccion;
     }
 
+    public void setUltimaReproduccion(LocalDateTime ultimaReproduccion) {
+        this.ultimaReproduccion = ultimaReproduccion;
+    }
+
     public String getTitulo() {
         return titulo;
     }
